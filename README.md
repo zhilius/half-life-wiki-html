@@ -5,6 +5,12 @@ No CSS, no JavaScript, no deprecated attributes. Just HTML.
 
 **46 HTML pages** covering the story, characters, weapons, enemies, chapters, locations, development, multiplayer, and expansions of Valve's 1998 masterpiece.
 
+## Screenshots
+
+![Half-Life Wiki Home Page](screenshot.png)
+
+*Home page with Black Mesa ASCII art logo and site navigation.*
+
 ## The Challenge
 
 This project explores the limits of what's achievable with HTML alone:
