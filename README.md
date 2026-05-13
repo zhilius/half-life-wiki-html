@@ -9,7 +9,7 @@ No CSS, no JavaScript, no deprecated attributes. Just HTML.
 
 ![Half-Life Wiki Home Page](home-page.png)
 
-*Home page with Black Mesa ASCII art logo and site navigation.*
+*Home page with Black Mesa ASCII art logo and a short description of the game.*
 
 ## The Challenge
 
