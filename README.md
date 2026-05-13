@@ -3,6 +3,8 @@
 A complete Half-Life 1 wiki built with **pure HTML5 semantic elements**.
 No CSS, no JavaScript, no deprecated attributes. Just HTML.
 
+**46 HTML pages** covering the story, characters, weapons, enemies, chapters, locations, development, multiplayer, and expansions of Valve's 1998 masterpiece.
+
 ## The Challenge
 
 This project explores the limits of what's achievable with HTML alone:
@@ -10,18 +12,41 @@ This project explores the limits of what's achievable with HTML alone:
 - **Semantic structure**: `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`
 - **Visual interest via HTML**: `<details>`/`<summary>`, `<figure>`/`<figcaption>`, `<pre>`, `<blockquote>`, `<mark>`, Unicode
 - **SEO**: meta tags, Open Graph, Twitter Cards, JSON-LD structured data
-- **Performance**: zero external requests (except placeholder images), `loading="lazy"`, `decoding="async"`
+- **Performance**: minimal HTML, no render-blocking resources, immediate content paint
 
 ## Pages
 
-| Category | Pages |
-|----------|-------|
-| Main | index.html, story.html |
-| Characters | characters.html, gordon-freeman.html, g-man.html |
-| Weapons | weapons.html + 14 weapon detail pages |
-| Enemies | enemies.html + 14 enemy detail pages |
-| Chapters | chapters.html + 6 chapter pages |
-| Other | locations.html, development.html, multiplayer.html, expansions.html |
+| Category | Files | Description |
+|----------|-------|-------------|
+| Main | `index.html`, `story.html` | Home page, full plot summary |
+| Characters | 3 pages (index + 2 profiles) | Gordon Freeman, G-Man |
+| Weapons | 15 pages (index + 14 weapons) | Crowbar to Gluon Gun |
+| Enemies | 15 pages (index + 14 enemies) | Headcrab to Nihilanth |
+| Chapters | 7 pages (index + 6 chapters) | Black Mesa Inbound to Blast Pit |
+| Locations | `locations.html` | Black Mesa sectors, Xen |
+| Other | `development.html`, `multiplayer.html`, `expansions.html` | History, modding, expansions |
+
+## Structure
+
+```
+half-life-wiki-html/
+├── index.html              # Home page
+├── story.html              # Full plot
+├── characters.html         # Character index
+├── weapons.html            # Weapon index
+├── enemies.html            # Enemy index
+├── chapters.html           # Chapter list
+├── locations.html          # Location guide
+├── development.html        # Development history
+├── multiplayer.html        # Multiplayer & modding
+├── expansions.html         # Opposing Force, Blue Shift, Decay
+├── characters/             # Character profiles
+├── weapons/                # Weapon details (14 pages)
+├── enemies/                # Enemy details (14 pages)
+├── chapters/               # Chapter guides (6 pages)
+├── README.md
+└── .gitignore
+```
 
 ## Usage
 
