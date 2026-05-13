@@ -7,7 +7,7 @@ No CSS, no JavaScript, no deprecated attributes. Just HTML.
 
 ## Screenshots
 
-![Half-Life Wiki Home Page](screenshot.png)
+![Half-Life Wiki Home Page](home-page.png)
 
 *Home page with Black Mesa ASCII art logo and site navigation.*
 
